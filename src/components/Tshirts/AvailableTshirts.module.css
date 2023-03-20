@@ -1,0 +1,24 @@
+.Tshirts {
+    max-width: 60rem;
+    width: 90%;
+    margin: 2rem auto;
+    animation: Tshirts-appear 1s ease-out forwards;
+  }
+  
+  .Tshirts ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  @keyframes Tshirts-appear {
+    from {
+      opacity: 0;
+      transform: translateY(3rem);
+    }
+  
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
